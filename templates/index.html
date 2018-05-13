@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>THE CODING PLATFORM</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="jumbotron">
+<h1 align="center">CODEXTREME</h1>
+</div>
+<div>
+<form class="form-signin" action="/selection" method="POST">
+<div class="form-group">
+    <label for="Textarea">Enter your code here</label>
+    <textarea class="form-control" id="Code" rows="20" name="Code"></textarea>
+  </div>
+  <div class="from-group">
+  	<select name="algoType">
+	<option value="binarySearch">Binary Search</option>
+	<option value="fastExpo">Fast Exponentiation</option>
+	<option value="segmentTree">Segment Tree</option>
+	<option value="bfs">BFS</option>
+
+	</select>
+  </div>
+<button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="submit" type="submit">Submit</button>
+
+
+      </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>THE CODING PLATFORM</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="jumbotron">
+<h1 align="center">CODEXTREME</h1>
+</div>
+<div  align="center">
+<h2>{{AlgoName}}</h2>
+{% if result=="yes" -%}
+	<img src="/static/greentick.jpg" hieght="200" width="200">
+{%- endif %}
+{% if result=="no" -%}
+	<img src="/static/wrong.png" hieght="200" width="200">
+{%- endif %}
+<br><br><br>
+	
+
+
+
+</div>
+
+
+</div>
+</body>
+</html>
